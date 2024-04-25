@@ -1,4 +1,4 @@
-## MySQL Backup Docker Image
+## MySQL Backup Azure Blob Storage Docker Image
 
 This Dockerfile sets up a container for automating MySQL backups to Azure Blob Storage. It installs necessary dependencies, including MySQL client and Azure CLI, and configures environment variables for customization.
 
