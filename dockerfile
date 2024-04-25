@@ -32,4 +32,4 @@ ADD backup.sh /
 RUN chmod +x /backup.sh
 
 # Run backup script at specified time
-CMD sleep $(( ($(date -d "$BACKUP_TIME" +%s) - $(date +%s) + 86400) % 86400 )) && sh /backup.sh
+CMD sleep $(( ($(date -d "$BACKUP_TIME" +%s) - $(date +%s) + 86400) % 86400 )) && ./backup.sh
